@@ -1,0 +1,11 @@
+.menu_container{}
+
+.menu_container > h1 {
+  padding: 1rem;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 160px;
+  letter-spacing: 8px;
+}
