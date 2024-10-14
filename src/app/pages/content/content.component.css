@@ -1,0 +1,27 @@
+.content {
+  height: 100dvh;
+  width: 100%;
+}
+
+.cover {
+  height: 70%;
+  width: 100%;
+  position: relative;
+}
+
+.cover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background:#111111;
+  background: linear-gradient(0deg, #111111 12%, rgba(255, 255, 255, 0) 100%);
+}
+
+.cover img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
